@@ -127,7 +127,7 @@ nav ul li{
     display: inline-block;
   }
   #test{
-    display: block;
+    display: inline;
   }
   .wrapper {
     grid-template-areas:
@@ -136,8 +136,13 @@ nav ul li{
       'aside' 
       'ad'
       ;
+      grid-template-columns: auto;
   }
-  .cont {
-    width: 100%;
+  .footer ul{
+    display: flex;
   }
+  .footer li{
+    padding: 31px 71px;
+  }
+  
 }
